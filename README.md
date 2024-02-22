@@ -1,4 +1,6 @@
 
+# Linux  Commands
+
 ### To List Directory
 
         ls
@@ -112,5 +114,46 @@ In this case it will output these three files one by one
 ### To Use Less Command
 The command less combined.txt opens the file named combined.txt for viewing using the less command, allowing you to scroll through its contents page by page
 
-    less combined.txt
+        less combined.txt
 
+
+### To Move a Specific File Inside a folder 
+In this case ayush.txt is moved into the folder named dir using mv command 
+
+        mv ayush.txt dir
+
+### To Move The Back Into Parent Direcrory Use
+This command move ayush.txt back in to the parent directory
+
+        mv ayush.txt ..
+
+### To Move The Multiple File 
+In this case one.txt , two.txt , folder1 are moved to the last specified folder named x-folder 
+
+        mv one.txt two.txt folder1 x-folder
+
+### To Move Nested Files 
+This command only moves the file name ayush.html which is inside CSS folder which is also inside the parent folder named web folder and the ayush.html is moved the the folder name web_folder which is specified at the last
+
+        mv web/CSS/ayush.html web_folder
+    
+
+### To Move Nested Files and Folder 
+This command moves the ayush.html file which is inside the parent folder web into the curent working directory
+
+        mv web/ayush.html .
+
+### To Rename Use 
+This command renames the folder named one into two
+
+        mv one two 
+
+### To delete a Direcrory
+
+        rm folder_name
+
+### To remove non empty folder 
+
+        rm -r folder_name
+
+        
