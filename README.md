@@ -1,4 +1,3 @@
-
 # Linux  Commands
 
 ### To List Directory
@@ -156,4 +155,42 @@ This command renames the folder named one into two
 
         rm -r folder_name
 
+
+### To View Word Count Line Count And Character Count
+In this example the this shows the line , word ,and 
+character count of file name file.txt 
+
+        wc file.txt  # This shows the line count word count and character count all in one 
+
+        wc -l file.txt #This shows line count only
+        wc -c file.txt #This shows character count only 
+        wc -w #This shows the word count only 
+
+###  To View Noumber of Files and Folders in Home Direcrtory 
+This first code appends all the files and folders of home directory in file.txt and second command is used to show the line count of that same file which contains all the file and folders of the home directory  
+
+
+        ls ~ > file.txt
+        wc -l file.txt
         
+ShortCut For This Same Functionaity In this case we dont need to create a tempporary file for viewing number of files and folders in the home directory
+
+        ls ~ | wc -l
+
+### Additional Info
+- Instead of allowing long-lived terminal sessions with dangerous powers, require the user to specifically request superuser rights on a per-command basis. The key to this approach is a command called sudo (as in “switch user and do this command”).
+
+### Command To Allows SuperUser Privilege For EveryNext Command After it 
+
+        sudo su 
+
+
+### To Make a File a Hidden FIle 
+This command in this example makes this ayush.txt file a hidden file by renaming it with "." dot infront of it 
+
+        mv ayush.txt .ayush.txt
+
+### To List All The Files And Folders Including The Hidden Ones 
+
+        ls -a
+
