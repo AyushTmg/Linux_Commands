@@ -194,3 +194,31 @@ This command in this example makes this ayush.txt file a hidden file by renaming
 
         ls -a
 
+### To Know Who am i Use 
+
+    whoami
+
+### To find Out What a spectid command to do Use man 
+
+    man cat
+
+### To zip Use
+THis command zip any specified files and folder into the specfic name in this case ayush.zip
+
+        zip ayush.zip anyfileorfolder
+
+### To Unzip  Use 
+In this case it unzip the ayush.zip
+
+        unzip ayush.zip
+
+###  To View IpAddress
+
+        ifconfig
+
+### To View Memory of you device 
+
+        free 
+
+
+
